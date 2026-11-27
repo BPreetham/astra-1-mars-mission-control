@@ -1,6 +1,6 @@
 # ASTRA-1 — MARS MISSION CONTROL
 
-A professional, futuristic, and operational mission-control platform designed for managing the emergency crisis at the **Astra-1 Mars colony** (10,000 population).
+A professional, futuristic, and operational mission-control platform designed for managing the emergency crisis at the **Astra-1 Mars colony** (10,000 population).  
 
 Strict Technology Constraint Adherence:
 - **Frontend**: Next.js (App Router, Tailwind CSS, Lucide Icons, Interactive SVG Mars Tactical Surface Map, Ticking Live Recovery Clock)
