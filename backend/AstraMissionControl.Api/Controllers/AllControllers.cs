@@ -16,10 +16,6 @@ using SignalAnalysisService service) => _service = service;
             return res.Success ? Ok(res) : BadRequest(res);
         }
     }
-
-    [ApiController]
-    [Route("api/resources")]
-    public class ResourceController : ControllerBase
     {
         private readonly IResourceService _service;
         public ResourceController(IResourceService service) => _service = service;
