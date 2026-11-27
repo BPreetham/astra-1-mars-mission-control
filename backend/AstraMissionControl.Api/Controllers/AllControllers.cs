@@ -88,6 +88,5 @@ using SignalAnalysisService service) => _service = service;
         public MissionEventController(IMissionEventService service) => _service = service;
 
         [HttpGet]
-        public async Task<IActionResult> GetEvents([FromQuery] int limit = 30) => Ok(await _service.GetRecentEventsAsync(limit));
-    }
+        p
 }
